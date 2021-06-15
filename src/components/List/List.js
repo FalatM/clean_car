@@ -5,7 +5,18 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemSecondaryAction from '@material-ui/core/ListItemSecondaryAction';
 import ListItemText from '@material-ui/core/ListItemText';
 import Checkbox from '@material-ui/core/Checkbox';
+import { createMuiTheme } from '@material-ui/core/styles';
 
+const theme = createMuiTheme({
+  palette: {
+    primary: {
+      main: '#15804D',
+    },
+    secondary: {
+      main: '#006639',
+    },
+  },
+});
 
 const list = [
     "Wipe Down & Sanitized",
