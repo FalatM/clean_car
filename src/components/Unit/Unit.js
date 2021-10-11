@@ -16,8 +16,8 @@ export default function UnitField() {
 
   return (
     <form className={classes.root} noValidate autoComplete="off">
-      <TextField id="standard-basic" label="Unit Number" required/>
-      <TextField id="standard-basic" label="Employee" required/>  
+      <TextField type="text" id="standard-basic" label="Unit Number" required/>
+      <TextField Type="text" id="standard-basic" label="Employee" required/>  
     </form>
   );
 }
